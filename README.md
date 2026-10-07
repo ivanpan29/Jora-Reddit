@@ -8,19 +8,6 @@ Reddit is one optional information source used by the assistant.
 
 The integration is read-only.
 
-## Initial Scope
-
-The initial version is limited to selected public communities, including:
-
-- r/LocalLLaMA
-- r/artificial
-- r/MachineLearning
-- r/OpenAI
-
-Access is initiated only by an explicit request from the user.
-
-V1 does not perform continuous background collection or bulk harvesting.
-
 ## Reddit Actions
 
 The application only needs to:
@@ -54,7 +41,7 @@ The integration will respect Reddit API rate limits and will not attempt to circ
 
 Reddit data will not be used to train, fine-tune, or create machine-learning or AI models.
 
-For V1, analysis and summarization of Reddit content will be performed locally on private infrastructure.
+Analysis and summarization of Reddit content will be performed locally on private infrastructure.
 
 Raw Reddit posts and comments will not be sent to third-party AI model providers.
 
@@ -100,6 +87,3 @@ This integration is currently under development.
 
 Reddit Data API access will only be enabled after explicit approval from Reddit.
 
-## Policy Intent
-
-This repository documents the intended Reddit integration and data-handling boundaries for review purposes. The implementation is designed to remain within the approved scope and Reddit's applicable developer policies.
